@@ -4,7 +4,7 @@ time = input("Is it time-bound? (yes/no): ")
 
 match priority:
     case "high":
-        chosen_task = "is a low priority task"
+        chosen_task = "is a high priority task"
     case "medium":
         chosen_task = "is a medium priority task"
     case "low":
