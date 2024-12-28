@@ -12,7 +12,7 @@ match priority:
     case _:
         print("Not a valid priority option")
 
-        if time == "yes":
-            print("Reminder:",task,chosen_task,"that requires immediate attention today!" )
-        else:
-            print("Note:",task,chosen_task,".Consider completing it when you have free time.")
+if time == "yes":
+    print("Reminder:",task,chosen_task,"that requires immediate attention today!" )
+else:
+    print("Note:",task,chosen_task,".Consider completing it when you have free time.")
