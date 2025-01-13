@@ -10,9 +10,11 @@ def display_menu():
 
 def main():
     shopping_list = []
+
     while True:
         display_menu()
         choice = input("Enter your choice: ")
+
         if choice == '1':
             item = input("Enter the name of the item to add: ").strip()
             shopping_list.append(item)
@@ -25,6 +27,7 @@ def main():
                 print(f"'{item}' has been removed from the shopping list.")
             else:
                 print(f"'{item}' was not found in the shopping list.")
+
         elif choice == '3':
             if shopping_list:
                 print("\nCurrent Shopping List:")
