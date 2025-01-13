@@ -27,7 +27,8 @@ def calculate_future_date(days):
     current_date = datetime.now()
     
     # Calculate the future date
-    future_date = current_date + timedelta(days=days)
+     days_to_add = int(input("Enter the number of days to cdd to the current  date: "))
+    future_date = current_date + timedelta(days=days_to_add)
 
     # Format the future date
     formatted_future_date = future_date.strftime('%Y-%m-%d')
