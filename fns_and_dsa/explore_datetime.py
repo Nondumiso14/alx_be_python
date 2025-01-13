@@ -33,15 +33,15 @@ def calculate_future_date(days):
     formatted_future_date = future_date.strftime('%Y-%m-%d')
 
     # Print the future date
-    print(f"Future Date (after {days} days): {formatted_future_date}")
+    print(f"Future Date: {formatted_future_date}")
 
 if __name__ == "__main__":
     display_current_datetime()
 
     # Prompt the user for the number of days
     try:
-        days = int(input("Enter the number of days to cdd to the current  date: "))
-        calculate_future_date(days)
+        days_to_add = int(input("Enter the number of days to cdd to the current  date: "))
+        calculate_future_date(days_to_add)
     except ValueError:
         print("Please enter a valid integer for the number of days.")
 
