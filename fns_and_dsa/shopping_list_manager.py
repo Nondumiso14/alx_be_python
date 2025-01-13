@@ -2,7 +2,7 @@ def display_menu():
     """
     Display the menu options to the user.
     """
-    print("\nShopping List Menu:")
+    print("shopping List Menu:")
     print("1. Add an item")
     print("2. Remove an item")
     print("3. View the list")
@@ -30,7 +30,7 @@ def main():
 
         elif choice == '3':
             if shopping_list:
-                print("\nCurrent Shopping List:")
+                print("Current Shopping List:")
                 for i, item in enumerate(shopping_list, start=1):
                     print(f"{i}. {item}")
             else:
