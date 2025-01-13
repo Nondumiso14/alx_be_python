@@ -1,3 +1,13 @@
+def display_menu():
+    """
+    Display the menu options to the user.
+    """
+    print("\nShopping List Menu:")
+    print("1. Add an item")
+    print("2. Remove an item")
+    print("3. View the list")
+    print("4. Exit")
+
 def main():
     shopping_list = []
     while True:
