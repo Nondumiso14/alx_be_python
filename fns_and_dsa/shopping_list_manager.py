@@ -2,10 +2,10 @@ def display_menu():
     """
     Display the menu options to the user.
     """
-    print("shopping List Menu:")
-    print("1. Add an item")
-    print("2. Remove an item")
-    print("3. View the list")
+    print("Shopping list Manager")
+    print("1. Add item")
+    print("2. Remove item")
+    print("3. View list")
     print("4. Exit")
 
 def main():
@@ -17,7 +17,7 @@ def main():
 
         if choice == '1':
             item = input("Enter the name of the item to add: ").strip()
-            shopping_list.append(item)
+            shopping_list.append(input("Add item"))
             print(f"'{item}' has been added to the shopping list.")
 
         elif choice == '2':
