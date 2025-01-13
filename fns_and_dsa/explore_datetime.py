@@ -40,7 +40,7 @@ if __name__ == "__main__":
 
     # Prompt the user for the number of days
     try:
-        number_of_days = int(input("Enter the number of days to calculate the future date: "))
+        number_of_days = int(input("Enter the number of days to cdd to the current  date: "))
         calculate_future_date(number_of_days)
     except ValueError:
         print("Please enter a valid integer for the number of days.")
