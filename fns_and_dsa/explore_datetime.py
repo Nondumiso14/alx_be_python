@@ -13,25 +13,27 @@ def display_current_datetime():
     # Print the formatted date and time
     print(f"Current date and time: {formatted_date}")
     
-    days = int(input("Enter the number of days to cdd to the current  date: "))
-def calculate_future_date(current_date,days):
-    future_date = current_date + timedelta (days=days)
+    
+def calculate_future_date(days):
+    current_date = datetime.now()
+    future_date = current_date + timedelta(days=days)
     formatted_future_date = future_date.strftime('%Y-%m-%d')
     # Print the future date
     print(f"Future date: {formatted_future_date}")
-    return future_date
-
+    
 def main():
-    current_date = display_current_datetime()
+    display_current_datetime()
 
-    try:
-       days = int(input("Enter the number of days to cdd to the current  date: "))
-       calculate_future_date(current_date, days)
-    except ValueError:
-        print("Invalid input. Please enter an interger value for the number of days.")
+    days = int(input("Enter the number of days to cdd to the current  date: "))
+    calculate_future_date(days)
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     main()
+
+
+
+
+
 
     
     
