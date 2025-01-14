@@ -25,8 +25,8 @@ def calculate_future_date(days):
 def main():
     display_current_datetime()
 
-    days = int(input("Enter the number of days to cdd to the current  date: "))
-    calculate_future_date(days)
+    days_to_add = int(input("Enter the number of days to cdd to the current  date: "))
+    calculate_future_date(days_to_add)
 
 if _name_ == "_main_":
     main()
