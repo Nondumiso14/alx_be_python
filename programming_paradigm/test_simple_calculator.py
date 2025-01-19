@@ -14,11 +14,11 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.add(-2, -2), -4)
         self.assertEqual(self.calc.add(2, -1), 1)
 
-    def test_subtract(self):
-        self.assertEqual(self.calc.subtract(2, 3), -1)
-        self.assertEqual(self.calc.subtract(0, 2) -2)
-        self.assertEqual(self.calc.subtract(-3, -2), -1)
-        self.assertEqual(self.calc.subtract(5, 0), 5)
+    def test_subtraction(self):
+        self.assertEqual(self.calc.subtraction(2, 3), -1)
+        self.assertEqual(self.calc.subtraction(0, 2) -2)
+        self.assertEqual(self.calc.subtraction(-3, -2), -1)
+        self.assertEqual(self.calc.subtraction(5, 0), 5)
 
     def test_multiply(self):
         self.assertEqual(self.calc.multiply(2, 3), 6)
