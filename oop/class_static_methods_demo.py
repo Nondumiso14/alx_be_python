@@ -19,7 +19,7 @@ class Calculator:
         return a + b
 
     @classmethod
-    def multiply(cls, a: float, b: float) -> float:
+    def multiply(cls, a, b):
         """
         Returns the product of two numbers.
 
