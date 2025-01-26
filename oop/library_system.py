@@ -38,7 +38,7 @@ class Library:
         """
         self.books.append(book)
 
-   def list_books(self):
+    def list_books(self):
         """
         Prints details of each book in the library.
         """
