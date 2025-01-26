@@ -30,7 +30,7 @@ class Calculator:
         Returns:
         float: The product of a and b.
         """
-        print(f"Performing {cls.calculation_type.lower()}:")
+        print(f"Calculation type {cls.calculation_type.lower()}:")
         return a * b
 
 if __name__ == "__main__":
