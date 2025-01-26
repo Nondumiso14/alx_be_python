@@ -33,3 +33,13 @@ class Calculator:
         print(f"Performing {cls.calculation_type.lower()}:")
         return a * b
 
+if __name__ == "__main__":
+    calculator = Calculator()
+
+    result1 = Calculator.add(10, 5)
+    print(f"Addition result: {result1}")
+
+    result2 = Calculator.multiply(10, 5)
+    print(f"Multiplication result: {result2}")
+
+
